@@ -24,24 +24,25 @@ This is a project for the **CS50 Web Programming with Python and JavaScript** co
 ```bash
 git clone https://github.com/yourusername/project3.git
 cd project3
+```
 Setup Virtual Environment (Optional but recommended):
-bash
-Copy code
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 Install dependencies:
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+```
 Apply migrations:
-bash
-Copy code
+```bash
 python manage.py makemigrations mail
 python manage.py migrate
+```
 Run the Django development server:
-bash
-Copy code
+```bash
 python manage.py runserver
+```
 Now, open your browser and navigate to http://127.0.0.1:8000/.
 
 Usage
