@@ -84,9 +84,3 @@ If you want to contribute, ensure you follow the project structure and include t
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- [CS50's Web Programming](https://cs50.harvard.edu/web/)
-- [Django Framework](https://www.djangoproject.com/)
-- [JavaScript Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
