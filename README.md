@@ -1,6 +1,7 @@
 # CS50 Web Programming with Python and JavaScript - Email Client
 
-This is a project for the **CS50 Web Programming with Python and JavaScript** course. The goal of the project is to design a front-end for an email client that communicates with a back-end API to send and receive emails.
+This is a project for the **CS50 Web Programming with Python and JavaScript** course.   
+The goal of the project is to design a front-end for an email client that communicates with a back-end API to send and receive emails.
 
 ## Features
 
@@ -17,33 +18,34 @@ This is a project for the **CS50 Web Programming with Python and JavaScript** co
 - JavaScript (for front-end functionality)
 - HTML and CSS
 
-## Installation
+<details>
+<summary>Installation</summary>
 
-### Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/project3.git
-cd project3
-```
-Setup Virtual Environment (Optional but recommended):
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-```
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-Apply migrations:
-```bash
-python manage.py makemigrations mail
-python manage.py migrate
-```
-Run the Django development server:
-```bash
-python manage.py runserver
-```
-Now, open your browser and navigate to http://127.0.0.1:8000/.
+> 1. Clone the repository:
+> 
+> ```bash
+> git clone https://github.com/yourusername/project3.git
+> cd project3
+> ```
+> 2. Setup Virtual Environment (Optional but recommended):
+> ```bash
+> python3 -m venv venv
+> source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+> ```
+> 3. Install dependencies:
+> ```bash
+> pip install -r requirements.txt
+> ```
+> 4. Apply migrations:
+> ```bash
+> python manage.py makemigrations mail
+> python manage.py migrate
+> ```
+> 5. Run the Django development server:
+> ```bash
+> python manage.py runserver
+> ```
+> Now, open your browser and navigate to http://127.0.0.1:8000/.</details>
 
 ## Usage
 
@@ -76,7 +78,8 @@ Now, open your browser and navigate to http://127.0.0.1:8000/.
 
 ## Contributing
 
-Feel free to fork this repository and submit pull requests. If you want to contribute, ensure you follow the project structure and include tests for your changes.
+Feel free to fork this repository and submit pull requests.   
+If you want to contribute, ensure you follow the project structure and include tests for your changes.
 
 ## License
 
